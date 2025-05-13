@@ -10,6 +10,7 @@ variable "secret_key" {
 
 variable "region" {
   type = string
+  default = 'ap-south-1'
 
 }
 
@@ -20,4 +21,5 @@ variable "instace_type" {
 
 variable "ami" {
   type = string
+  default = 'ami-0429d68a1cd41ca80'
 }
