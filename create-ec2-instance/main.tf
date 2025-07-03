@@ -4,7 +4,7 @@ provider "aws" {
 resource "aws_instance" "ubuntu" {
   ami           = "ami-03f4878755434977f"
   instance_type = "t2.micro"
-  key_name      = "aws-login"
+  key_name      = "ssh_key_ap"
   subnet_id     = "subnet-06c867bcca503534a"
   tags = {
     Name = "Ubuntu-01"
